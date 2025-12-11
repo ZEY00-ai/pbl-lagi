@@ -1,0 +1,56 @@
+/* Custom styles */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.table th {
+    border-top: none;
+    background-color: #f8f9fa;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Hover effects */
+.btn-hover:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s;
+}
+
+/* Print styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
+.badge.bg-danger { background-color: #dc3545 !important; }
+.badge.bg-warning { background-color: #ffc107 !important; color: #000 !important; }
+.badge.bg-success { background-color: #198754 !important; }
+
+.table th a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.table th a:hover {
+    color: #0d6efd;
+}
+
+.money-input {
+    text-align: right;
+}
+
+.modal-body .table th {
+    background-color: #f8f9fa;
+}
